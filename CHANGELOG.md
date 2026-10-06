@@ -1,5 +1,23 @@
 # Restreamer
 
+## Unreleased
+
+### Core
+
+-   Accept sources with multiple audio tracks (Enhanced RTMP multi-track audio, e.g. the OBS "Twitch VOD track") ([#83](https://github.com/datarhei/restreamer/issues/83))
+-   Keep all audio tracks of the source through the pipeline (RTMP loopback and HLS)
+-   Report a diagnosable error when a publish stream has no decodable streams
+
+### UI v1.14.0 > v1.15.0
+
+-   Add per-target audio track selection: each publication can select an ordered set of audio tracks with its own encoding ([#83](https://github.com/datarhei/restreamer/issues/83))
+-   Add audio track management to the ingest (keep all audio tracks of the source)
+-   Metadata migration to the audio track list (older configurations are converted automatically, downgrade to ≤ v1.14.0 is not supported)
+
+### Docs
+
+-   Add [OBS guide for multiple audio tracks](docs/obs-multi-audio.md) (Twitch VOD track, SRT/MPEG-TS)
+
 ## 2.12.0
 
 ### UI v1.13.0 > v1.14.0

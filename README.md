@@ -108,6 +108,7 @@ Documentation is available on [docs.datarhei.com/restreamer](https://docs.datarh
 - [Installation](https://docs.datarhei.com/restreamer/installing/minimum-requirements)
 - [Manual](https://docs.datarhei.com/restreamer/knowledge-base/manual)
 - [Guides](https://docs.datarhei.com/restreamer/knowledge-base/user-guides)
+- [Multiple audio tracks from OBS (e.g. a separate Twitch VOD track)](docs/obs-multi-audio.md)
 
 ## Development
 
